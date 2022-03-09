@@ -3,22 +3,18 @@
     padding: 0;
 }
 
+body{
+    background-color: burlywood
+}
 
 img {
     max-width: 100%;
     max-height: 100%;
 }
 
-
-.btn {
-    border: none;
-    color: white;
-    padding: 5px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-  }
+ul {
+    list-style-type: none;
+}
 
 
 .foodBtn {
@@ -37,7 +33,7 @@ img {
 .playArea {
     display: grid;
     grid-template-columns: repeat(4, 6rem);
-    grid-template-rows: 14rem 10rem 2rem;
+    grid-template-rows: 5rem 14rem 2rem 7rem 2rem;
     gap: 1rem;
     cursor: pointer;
     justify-content: center;
@@ -49,19 +45,20 @@ img {
 .position {
     justify-content: center;
     position: absolute;
-    top: 10%;
+    top: 5%;
     left: 10%;
     height: 90%;
     width: 90%;
 }
 
 .custDisplay {
-    font-size: 30px;
+    font-size: 20px;
     grid-column: span 4;
     display: flex;
     justify-content: center;
-    align-items: center;
-    color: white;
+    color: black;
+    list-style-type: none;
+    background-color: aliceblue;
     border: 1px solid black;
 }
 
@@ -72,9 +69,41 @@ img {
     align-items: center;
     color: white;
 }
+.restoSign{
+    font-size: 200%;
+    grid-column: span 4;
+    display: flex;
+    justify-content: center;
+    color: red;
+    list-style-type: none;
+    
+    
+}
 
+#friesBtn {
+    background-color: yellow;
+}
 
+#hotdogBtn {
+    background-color: red;
+}
 
 #hotdogPic{
-    height: 60%;
+    height: 80%;
+}
+
+#sauerBtn{
+    background-color: yellowgreen;
+}
+
+#sodaBtn{
+    background-color: brown;
+}
+
+#sodaPic{
+    height: 80%;
+}
+#submitOrd {
+    background-color: orangered;
+    grid-column: span 4;
 }
