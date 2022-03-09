@@ -10,31 +10,34 @@ class Food{
 
 
 let hotdog = new Food('hotdog', 0, 4.00);
+let fries = new Food("fries", 0, 3.50);
+let sauerkraut = new Food("sauerkraut", 0, 1.00);
+let soda = new Food("soda", 0, 1.50);
 
 
-// fries made using function obj
-let fries = {}
+// // fries made using function obj
+// let fries = {}
 
-function priceFries(obj) {
-   obj.item = "fries"; 
-   obj.qty = 0
-   obj.price = 3.50;
-}
-priceFries(fries); 
+// function priceFries(obj) {
+//    obj.item = "fries"; 
+//    obj.qty = 0
+//    obj.price = 3.50;
+// }
+// priceFries(fries); 
 
-// sauerkraut is a simple object. 
-let sauerkraut = {
-    item: "sauerkraut", 
-    qty: 0,
-    price: 3.50
-}
+// // sauerkraut is a simple object. 
+// let sauerkraut = {
+//     item: "sauerkraut", 
+//     qty: 0,
+//     price: 3.50
+// }
 
 
-let soda = {
-    "item": "soda", 
-    "qty": 0,
-    "price": 1.50
-}
+// let soda = {
+//     "item": "soda", 
+//     "qty": 0,
+//     "price": 1.50
+// }
 
 // grab all elements 
 const friesBtn = document.getElementById('friesBtn');
