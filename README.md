@@ -1,5 +1,7 @@
 # Joes-Hotdogs
 
+https://crimsoncoder42.github.io/Joes-Hotdogs/
+
 You are creating a simple order system for Joe’s Hotdgs.  Joe’s has only 4 items:  hotdogs, 
 fries, soda and sauerkraut.  The cost of the items is $4, $3.50, $1.50, $1 respectively.  You 
 need to do the following:
